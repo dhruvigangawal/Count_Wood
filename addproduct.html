@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AddProduct</title>
+	<link rel="icon" type="image/x-icon" href="image/logo.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+</head>
+<body>
+	<style type="text/css">
+		body{
+			background-color: #6abadeba;
+		}
+		h1{
+			font-size: 35px;
+            font-family: 'Monoton', cursive;
+            color: white;
+            padding-left: 0px;
+            background-color: #23463f;
+            padding: 40px;
+            margin-top: 0px;
+            color: white;
+            text-align: center;
+		}
+		.main{
+			background:#23463f;
+			color: white;
+			padding: 15px;
+			font-size: 30px;
+			border-radius: 30px;
+			margin-left: 25px;
+			 
+		}
+		
+		#item{
+			font-size: 18px;
+			width: 250px;
+
+		}
+		#titem{
+			font-size: 18px;
+			width: 200px;
+		}
+		.butt{
+			width: 150px;
+			height: 25px;
+			float: center;
+			border-radius: 10px;
+			font-weight: 200;
+			margin-left: 650px;
+		}
+		.sub{
+			background:#23463f;
+			color: white;
+			padding: 15px;
+			font-size: 25px;
+			border-radius: 30px;
+			margin-top: 60px;
+			margin-left: 25px;
+;
+
+		}
+
+	</style>
+    <h1>ADD Product</h1>
+    <section class="main">
+    	<label for="Item" id="drop">Item:</label>&nbsp;&nbsp;
+    	<select name="item" id="item">
+    		<option value=""></option>
+    		<option value="ply">Ply</option>
+    		<option value="bb">BB</option>
+    		<option value="rw">RW</option>
+    		<option value="neem">Neem</option>
+    		<option value="tl">TL</option>
+    		<option value="rc">RC</option>
+    		<option value="com">Com</option>
+    		<option value="pf">PF</option>
+    		<option value="t/wdoor">T/W Door</option>
+    	</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	<label for="brand" id="drop">Brand:</label>&nbsp;&nbsp;
+    	<select name="Brand" id="item">
+    		<option value=""></option>
+    		<option value="piston">Piston</option>
+    		<option value="gangawal">Gangawal</option>
+    		<option value="royal touch">Royal Touch</option>
+    		<option value="silicon">Silicon</option>
+    	</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	<label for="design" id="drop">Design:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	<select name="Design" id="item">
+    		<option value=""></option>
+    		<option value="pd-01">PD-01</option>
+    		<option value="pd-02">PD-02</option>
+    		<option value="pd-03">PD-03</option>
+    		<option value="pd-04">PD-04</option>
+    		<option value="pd-05">PD-05</option>
+    		<option value="pd-06">PD-06</option>
+    		<option value="pd-07">PD-07</option>
+    		<option value="pd-08">PD-08</option>
+    		<option value="ppd-01">PPD-01</option>
+    		<option value="ppd-02">PPD-02</option>
+    		<option value="ppd-03">PPD-03</option>
+    		<option value="ppd-04">PPD-04</option>
+    		<option value="ppd-05">PPD-05</option>
+    		<option value="ppd-06">PPD-06</option>
+    	</select><br><br>
+    	<label for="size" id="drop">Size:</label>&nbsp;&nbsp;
+    	<select name="Size" id="item">
+    		<option value=""></option>
+    		<option value="s1">4 x 2.5 ft</option>
+    		<option value="s2">5 x 2.5 ft</option>
+    		<option value="s3">5 x 3 ft</option>
+    		<option value="s4">5 x 4 ft</option>
+    		<option value="s5">6 x 2.5 ft</option>
+    		<option value="s6">6 x 3 ft</option>
+    		<option value="s7">6 x 4 ft</option>
+    		<option value="s8">7 x 3 ft</option>
+    		<option value="s9">7 x 4 ft</option>
+    		<option value="s10">8 x 3 ft</option>
+    		<option value="s11">8 x 4 ft</option>
+    	</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	<label for="thickness" id="drop">Thickness:</label>&nbsp;&nbsp;
+    	<select name="Thickness" id="titem">
+    		<option value=""></option>
+    		<option value="t1">1</option>
+    		<option value="t2">2.5</option>
+    		<option value="t3">4.7</option>
+    		<option value="t4">7.5</option>
+    		<option value="t5">9</option>
+    		<option value="t6">11</option>
+    		<option value="t7">12</option>
+    		<option value="t8">16</option>
+    		<option value="t9">16.7</option>
+    		<option value="t10">18</option>
+    		<option value="t11">19</option>
+    		<option value="t12">20</option>
+    		<option value="t13">25</option>
+    		<option value="t14">30</option>
+    		<option value="t15">32</option>
+    		<option value="t16">35</option>
+    		<option value="t17">40</option>
+    		<option value="t18">50</option>
+    		<option value="t19">51</option>
+    	</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	<label>Description:</label>&nbsp;&nbsp;
+        <input type="text" name="Uname" id="item" placeholder="add description">
+        <br><br>
+        <input class="butt" type="button" name="Submit" id="butt" value="Submit">
+        
+    </section>
+
+    <section class="sub">
+    	<label>Add Item:</label>&nbsp;&nbsp;
+        <input type="text" name="Uname" id="item" placeholder="item name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>Add Size:</label>&nbsp;&nbsp;
+        <input type="text" name="Uname" id="item" placeholder="item Size">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>Add Brand:</label>&nbsp;&nbsp;
+        <input type="text" name="Uname" id="item" placeholder="item Brand"><br><br><br>
+        <label>Add Thickness:</label>&nbsp;&nbsp;
+        <input type="text" name="Uname" id="item" placeholder="item thickness">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>Add design:</label>&nbsp;&nbsp;
+        <input type="text" name="Uname" id="item" placeholder="item Design">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br><br>
+        <input class="butt" type="button" name="Submit" id="butt" value="ADD">
+        
+    </section>
+
+</body>
+</html>

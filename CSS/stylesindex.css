@@ -1,0 +1,103 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:#6abadeba;
+   font-family: 'Caveat', cursive;
+}
+.login{
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        background: #23463f;
+        border-radius: 15px ;
+
+}
+h1{
+    text-align: center;
+    color: #277582;
+    padding: 20px;
+    font-family: 'Caveat', cursive;
+}
+label{
+    color: #08ffd1;
+    font-size: 17px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#GSTNO{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#add{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#num{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: black;
+    background-color: #7FFFD4;
+
+}
+
+cb{
+    color:black;
+}
+span{
+    color: white;
+    font-size: 17px;
+}
+a{
+    
+    background-color: #7FFFD4;
+    color: black;
+    text-underline-position: none;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.a:hover{
+    background-color: blue; 
+}
+.butt:hover{
+    background-color: transparent;
+}
+
+#image{
+    width: 250px;
+    height: 140px;
+}
